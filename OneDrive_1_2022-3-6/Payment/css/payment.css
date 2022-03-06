@@ -1,0 +1,136 @@
+body {
+	margin: 0;
+	height: 100%
+}
+
+html {
+	height: 100%
+}
+
+.content {
+	display: flex;
+	justify-content: center;
+}
+
+.main {
+	margin-right: 10px;
+}
+
+.sidebar {
+	margin-left: 10px;
+}
+
+.p_header {
+	text-align: center;
+}
+
+.p_header img {
+	width: 50px;
+	height: 50px;
+	margin-top: 10px;
+}
+
+.p_header li {
+	display: inline
+}
+
+.p_info {
+	border: 1px solid;
+	border-color: lightgray;
+	padding: 0 10px;
+}
+
+.p_info_contact, .p_info_shipto {
+	border-bottom: 1px solid;
+	border-color: lightgray;
+	padding: 10px 0;
+}
+
+.p_info_method {
+	padding: 10px 0;
+}
+
+.p_info_name, .p_info_change {
+	text-align: left;
+	display: inline-block;
+	width: 15%;
+	padding-right: 5%;
+}
+
+.p_info_content {
+	text-align: left;
+	display: inline-block;
+	width: 45%;
+	padding-right: 5%;
+}
+
+
+/*Payment*/
+
+.p_payment, .p_billing_address {
+	margin-top: 30px;
+}
+
+p {
+	margin: 0;
+}
+
+h2 {
+	margin: 5px 0;
+}
+
+fieldset {
+	border: 1px solid;
+	border-color: lightgray;
+	margin-top: 20px;
+	padding: 10px;
+}
+
+.row {
+	padding: 10px;
+	border-bottom: 1px solid;
+	border-color: lightgray;
+}
+
+.card_info {
+	padding: 10px;
+	border-bottom: 1px solid;
+	border-color: lightgray;
+}
+
+.card_info input {
+	border: 1px solid;
+	border-color: lightgray;
+	color: gray;
+	font-size: 16px;
+	padding: 5px;
+	width: 95%;
+	display: inline-block;
+	margin: 5px 0;	
+}
+
+.other {
+	padding: 10px;
+}
+
+.p_billing_address div {
+	padding: 10px;
+}
+
+.p_footer {
+	margin-top: 30px;
+}
+
+.p_footer input {
+	float: right;
+}
+
+
+
+
+
+
+
+
+
+

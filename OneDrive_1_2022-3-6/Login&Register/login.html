@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+<meta charset="utf-8">
+<title>Login Account</title>
+<style>
+body{
+  background-color:lightgrey;
+  }
+
+.FormBox{
+width:400px;
+margin:60px auto;
+text-align: center;
+}
+
+input.form-input{
+  background: transparent;
+  border-radius: 7px;
+  margin: 10px;
+  text-align: left;
+  padding-top: 10px;
+  padding-right: 100px;
+  padding-bottom: 10px;
+  padding-left:10px; 
+  }
+
+button{
+  border-radius: 25px;
+  background-color: black;
+  border: none;
+  color: white;
+  padding: 10px 120px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 10px 2px;
+}
+.Form_Hint{
+  width: 300px;
+  margin: auto;
+  text-align: center;
+}
+.Hint{
+   float:left;
+   margin: 10px;
+  }
+.Link{ 
+   float:left;
+    margin: 10px 2px;
+	text-decoration: none;
+  }
+</style>
+
+</head>
+
+<body>
+
+ 
+
+
+
+    <div class="FormBox">
+	<form id="create_account" accept-charset="UTF-8">
+          <h1 class="Form_Title">Login</h1>
+          <p class="Form_Ins">Please enter your e-mail and password:</p>
+	<div class="form-item">
+      <input type="email" class="form-input" id="email" required="required" placeholder="Email" name="email">
+    </div>
+    <div class="form-item">
+      <input type="password" class="form-input" id="pwd" required="required" placeholder="Password" name="pwd">
+    </div>
+    <button type="submit" class="Submit_Botton">Login</button>
+
+	 <div class="Form_Hint">
+	 <p class="Hint">Don't have an account?</p><a href="register.html" class="Link">Create one</a></div>
+	</form>
+	</div>
+
+</body>
+
+</html>
